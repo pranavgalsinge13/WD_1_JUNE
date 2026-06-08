@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Details</title>
+</head>
+
+<body>
+
+    <center>
+
+        <h1>Payment Details</h1>
+
+        <!-- Redirect to success page -->
+        <form action="success.html">
+
+            <h3>Select Payment Method</h3>
+
+            <input type="radio" name="payment"> Card Payment
+            <input type="radio" name="payment"> UPI Payment
+
+            <br><br>
+
+            <!-- Card Details -->
+
+            <label>Card Holder Name:</label><br>
+            <input type="text"><br><br>
+
+            <label>Card Number:</label><br>
+            <input type="number"><br><br>
+
+            <label>CVV:</label><br>
+            <input type="password"><br><br>
+
+            <!-- UPI Details -->
+
+            <label>UPI ID:</label><br>
+            <input type="text" placeholder="example@upi"><br><br>
+
+            <label>Amount:</label><br>
+            <input type="text" value="500"><br><br>
+
+            <button type="submit">Pay Now</button>
+
+        </form>
+
+        <br>
+
+        <a href="application.html">
+            <button>Back</button>
+        </a>
+
+    </center>
+
+</body>
+</html>
